@@ -1,0 +1,16 @@
+{
+  "name": "recursive",
+  "version": "1.0.0",
+  "description": "solutions for recursive function calls",
+  "author": "akomlosi",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.21.4",
+    "chai": "~1.9.1",
+    "sinon": "~1.10.3",
+    "underscore": "~1.7.0"
+  },
+  "scripts": {
+    "test": "node_modules\\.bin\\mocha -u tdd -R spec tests/*.js"
+  }
+}
